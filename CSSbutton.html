@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .btn{  
+        color: aliceblue;
+        padding: 10px 15px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+    .btn-outline-primary{
+        background-color: white;
+        color: rgb(0, 115, 255);
+        border:2px solid rgb(0, 115, 255);
+    }
+    .btn-outline-primary:hover{
+        background-color: rgb(0, 115, 255);
+        color: white;
+    }
+
+    .btn-primary{
+        background-color: rgb(0, 115, 255);
+        border: 2px solid rgb(0, 115, 255);
+    }
+    .btn-primary:active{
+        background-color: rgb(3, 101, 221);
+        border-color: rgb(3, 101, 221);
+    }
+    .btn-secondary{
+        background-color: darkorange;
+        border: 2px solid darkorange;
+    }
+    .btn-secondary:active{
+        background-color: rgb(200, 110, 0);
+        border-color: rgb(200, 110, 0);
+    }
+    .btn-dark{
+        background-color: black;
+        border: 2px solid black;
+    }
+    .btn-dark:active{
+        background-color: rgba(0, 0, 0, 0.682);
+        border-color: rgba(0, 0, 0, 0.682);
+    }
+    .rounded{
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+    <button class="btn btn-primary">Normal Button</button>
+
+    <a class="btn btn-primary" href="#">a Tag Button</a>
+
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-dark">Dark Button</button>
+    <hr>
+    <button class="btn btn-outline-primary">Outline Button</button>
+    <button class="btn btn-secondary">
+        <i class="fas fa-home"></i>
+    </button>
+
+    <button class="btn btn-outline-primary">
+        <i class="fas fa-car"></i>
+    </button>
+    <hr>
+    <button class="btn btn-outline-primary rounded">Outline Button</button>
+    <button class="btn btn-primary rounded">Normal Button</button>
+
+</body>
+</html>
